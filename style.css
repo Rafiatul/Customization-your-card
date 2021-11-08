@@ -1,0 +1,336 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.custom-container{
+    width: 90%;
+    margin: auto;
+}
+.head-text{
+    text-align: center;
+    margin: 40px 0;
+}
+.head-text h1{
+    font-size: 32px;
+
+}
+
+
+.main{
+   border: 1px solid #ddd;
+   padding: 40px 0;
+   width: 90%;
+   margin: auto;
+}
+.card {
+	max-width: 600px;
+	height: 320px;
+	margin: 10px auto;
+	background-image: url(./img/gold.png);
+	background-size: 100% 100%;
+	background-position: cover;
+	position: relative;
+	border-radius: 15px;
+	background-color: #5f5d5d;
+    padding: 30px 46px; 
+}
+
+.card .single-input input{
+    font-size: 17px;
+    text-align: center;
+    background: none;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    margin-top: -2px;
+    width: 100%;
+}
+
+.card .single-input{
+    position: relative;
+}
+.card .single-input-1 i,
+.card .single-input-2 i,
+.card .single-input-3 i,
+.card .single-input-4 i{
+    position: absolute;
+    top: 4px; 
+    right: -26px; 
+}
+
+
+.card .single-input-1 i:hover,
+.card .single-input-2 i:hover,
+.card .single-input-3 i:hover,
+.card .single-input-4 i:hover{
+    color: red;
+}
+
+
+/*-------- add-fiuld --------*/
+
+.add-fiuld{
+    overflow: hidden;
+}
+.add-fiuld ul{
+    list-style: none;
+    padding: 0; 
+    margin: 0; 
+}
+
+.add-fiuld ul li{
+    float: left;
+    border: 1px solid #fff;
+    padding: 2px 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    cursor: default;
+    font-weight: 500;
+}
+
+.add-fiuld ul li:hover{
+    background: rgba(105, 105, 105, 0.541);
+}
+
+.card .name,
+.card .email,
+.card .phn-number,
+.card .adress{
+}
+
+
+
+
+
+.card .single-input .name{
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.card-se {
+	max-width: 600px;
+	height: 320px;
+	margin: 10px auto;
+	background-image: url(./img/gold.png);
+	background-size: 100% 100%;
+	background-position: cover;
+	position: relative;
+	border-radius: 15px;
+	background-color: #5f5d5d;
+    padding: 30px; 
+}
+.logo {
+    position: relative;
+    height: 114px;
+	width: 320px;
+    display: block;
+    margin: 4px auto;
+    margin-bottom: 19px;
+    margin-top: 5px;
+    background-color: white;
+    background-image: url(./logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+}
+.logo-se {
+	position: relative;
+	margin: auto;
+	height: 160px;
+	width: 320px;
+    background-image: url(./logo.png);
+    background-size: auto;
+    background-size: contain;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: .5s;
+    background-color: transparent;
+    position: relative;
+    top: 48px;
+}
+
+
+/* right side customization start */
+.edit-section{
+    background-color: rgb(216, 216, 216);
+    overflow: hidden;
+    padding: 20px;
+    border: 2px solid #666;
+    margin-top: 5px;
+    width: 90%;
+}
+.edit-title{
+    overflow: hidden;
+    padding: 20px 0;
+}
+.edit-title h4{
+    font-size: 20px;
+    color: #222;
+    margin: 0;
+    padding-top: 10px;
+
+}
+
+
+.btn{
+    color: #fff;
+    border: 1px solid #666;
+    background: rgb(0, 129, 75)
+}
+.upload-logo label i{
+    font-size: 20px;
+    margin-right: 10px; 
+}
+.upload-logo label{
+    font-size: 20px;
+    font-weight: 500;
+}
+.upload-logo label:hover,
+.upload-logo label:focus{
+    background: rgb(0, 77, 45);
+    color: #fff; 
+}
+
+.backgrounds{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    padding: 10px;
+    background: #fff;
+    margin: 0;
+    border-radius: 6px;
+}
+.backgrounds img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+    transition: .5s;
+    cursor: pointer;
+}
+.backgrounds img:hover{
+    opacity: .8;
+}
+.active{
+    border: 5px solid rgb(194, 23, 23);
+}
+
+/* --------------text color start--------- */
+.text-color{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    padding: 10px;
+    background: #fff;
+    border-radius: 6px;
+}
+.text-color .font-col{
+    height: 50px;
+    object-fit: cover;
+    border: 2px solid red;
+    border-radius: 5px;
+    transition: .5s;
+  
+    cursor: pointer;
+}
+.text-color .font-col:hover{
+    opacity: .6;
+}
+
+
+
+.gold{
+    background-color: gold;
+}
+.silver{
+    background-color: silver;
+}
+.brass{
+    background-color: #E1C16E;
+}
+.stainless{
+    background-color: #b4bdc7;
+}
+.black{
+    background-color: black;
+}
+
+
+.gold-clr{
+    color: gold;
+}
+.silver-clr{
+    color: silver;
+}
+.brass-clr{
+   color: #E1C16E;
+}
+.stainless-clr{
+    color: #b4bdc7;
+}
+.black-clr{
+    color: black;
+}
+
+
+
+
+
+.extra-btn{
+    color: #fff;
+    border: 1px solid #666;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 30px;
+    background: rgb(0, 22, 149);
+    display: none;
+
+}
+.extra-btn i{
+    font-size: 20px;
+    margin-right: 10px; 
+}
+
+.extra-btn:hover,
+.extra-btn:focus{
+    background: rgb(0, 15, 100);
+    color: #fff; 
+}
+
+
+.done-btn{
+    overflow: hidden;
+
+}
+.done-btn p{
+    color: #fff;
+    border: 1px solid #666;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 30px;
+    background: rgb(0, 22, 149);
+    display: inline-block;
+    padding: 5px 10px; 
+    cursor: default;
+}
+
+
+.done-btn p:hover,
+.done-btn p:focus{
+    background: rgb(0, 15, 100);
+    color: #fff; 
+}
+
+
+
+/* --------------text color end--------- */
+/* right side customization end */

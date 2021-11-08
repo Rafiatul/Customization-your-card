@@ -1,0 +1,64 @@
+@media only screen and (max-width: 600px) {
+    .card .name {
+        font-size: 24px;
+       
+    }
+}
+@media only screen and (max-width: 600px) {
+
+
+    .main {
+        padding: 10px;
+    }
+    .logo, .logo-se {
+        width: 60%;
+    }
+    .card .name {
+        font-size: 23px;
+        font-weight: 600;
+        margin-bottom: 3px;
+    }
+    .card {
+        height: 277px;
+     
+    }
+    .card-se {
+        height: 277px;
+     
+    }
+}
+@media only screen and (max-width: 528px){
+    .logo, .logo-se {
+        width: 60%;
+        margin-top: -26px;
+    }
+    .card .name {
+        font-size: 20px;
+    }
+    .card input {
+        font-size: 15px;
+        
+    }
+}
+
+@media only screen and (max-width: 412px){
+    .custom-container{
+        width: 100%;
+    }
+    .card .name {
+        font-size: 16px;
+    }
+    .card input {
+        font-size: 13px;
+    }
+    .card {
+        height: 220px;
+    }
+    .card-se {
+        height: 220px;
+    }
+    .logo-se {
+        width: 60%;
+        margin-top: -61px;
+    }
+}
